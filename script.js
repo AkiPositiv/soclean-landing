@@ -84,15 +84,16 @@ const translations = {
     ],
     reviews: {
       title: 'Отзывы клиентов',
-      subtitle: 'Нам доверяют за аккуратность, скорость и спокойный сервис.'
+      subtitle: 'Что говорят клиенты о химчистке мягкой мебели и ковров.',
+      ratingLabel: 'средняя оценка клиентов'
     },
     testimonials: [
-      { quote: 'Всё сделали идеально, даже после ремонта. Очень приятно, когда реально заботятся о деталях.', author: 'Анна К. · Чиланзар' },
-      { quote: 'Регулярная уборка уже полгода — всегда вовремя и без лишних вопросов.', author: 'Дилноза Р. · Юнусабад' },
-      { quote: 'Спасибо за химчистку дивана — как новый. Рекомендую всем.', author: 'Марина Л. · Мирзо-Улугбек' },
-      { quote: 'Быстро приехали и всё сделали аккуратно, даже углы за шкафами не забыли.', author: 'Отабек Т. · Сергели' },
-      { quote: 'Заказывали эко-уборку — дома аллергик, всё прошло без единой реакции. Спасибо!', author: 'Камола Ю. · Яккасарай' },
-      { quote: 'Уже третий раз заказываем поддерживающую уборку — команда всегда на связи и пунктуальна.', author: 'Сергей В. · Шайхантахур' }
+      { quote: 'Диван был весь в пятнах от кота — не верила, что отчистят. Химчистка вернула ему первоначальный цвет!', author: 'Анна Ковалёва · Чиланзар' },
+      { quote: 'Заказывала химчистку ковра 3×4 — вывели даже старые пятна от чая. Сохнет быстро, запаха химии нет.', author: 'Дилноза Рашидова · Юнусабад' },
+      { quote: 'Спасибо за химчистку дивана — как новый. Рекомендую всем.', author: 'Марина Лебедева · Мирзо-Улугбек' },
+      { quote: 'Почистили угловой диван и два ковра за один визит, быстро и аккуратно. Одно пятно всё же осталось чуть заметным.', author: 'Отабек Турсунов · Сергели' },
+      { quote: 'Дома аллергия у ребёнка — переживала за химию для ковра. Средство оказалось без запаха, результат отличный.', author: 'Камола Юсупова · Яккасарай' },
+      { quote: 'Уже второй раз заказываем химчистку мебели перед праздниками — результат всегда отличный.', author: 'Сергей Волков · Шайхантахур' }
     ],
     area: {
       title: 'Зона обслуживания',
@@ -209,15 +210,16 @@ const translations = {
     ],
     reviews: {
       title: 'Mijozlar sharhlari',
-      subtitle: 'Bizni puxta ishlash, tezkor xizmat va tinchlikli servis uchun ishonch bildiradilar.'
+      subtitle: 'Mijozlar mebel va gilamlarni kimyoviy tozalash haqida nima deyishadi.',
+      ratingLabel: 'mijozlarning o\'rtacha bahosi'
     },
     testimonials: [
-      { quote: 'Hammasi mukammal bajarildi, hatto ta\'mirlashdan keyin ham. Detallarga haqiqatan ham e\'tibor berish yoqdi.', author: 'Anna K. · Chilonzor' },
-      { quote: 'Doimiy tozalashni olti oy davomida ishlatamiz — har doim o\'z vaqtida va hech qanday qo\'shimcha savollarsiz.', author: 'Dilnoza R. · Yunusobod' },
-      { quote: 'Divanni kimyoviy tozalashga rahmat — xuddi yangi. Hamma uchun tavsiya qilaman.', author: 'Marina L. · Mirzo Ulug\'bek' },
-      { quote: 'Tez kelishdi va hammasini puxta bajarishdi, hatto javon orqasidagi burchaklarni ham unutishmadi.', author: 'Otabek T. · Sergeli' },
-      { quote: 'Ekologik tozalashni buyurtma qildik — uyda allergiyasi bor odam bor, hech qanday reaksiya bo\'lmadi. Rahmat!', author: 'Kamola Y. · Yakkasaroy' },
-      { quote: 'Endi uchinchi marta doimiy tozalashni buyurtma qilyapmiz — jamoa doim aloqada va vaqtida keladi.', author: 'Sergey V. · Shayxontohur' }
+      { quote: 'Divan mushukdan qolgan dog\'larga to\'la edi — tozalanishiga ishonmagandim. Kimyoviy tozalash asl rangini qaytardi!', author: 'Anna Kovalyova · Chilonzor' },
+      { quote: '3x4 gilamni kimyoviy tozalashga berdim — hatto eski choy dog\'lari ham ketdi. Tez quriydi, kimyo hidi yo\'q.', author: 'Dilnoza Rashidova · Yunusobod' },
+      { quote: 'Divanni kimyoviy tozalashga rahmat — xuddi yangi. Hamma uchun tavsiya qilaman.', author: 'Marina Lebedeva · Mirzo Ulug\'bek' },
+      { quote: 'Burchakli divan va ikkita gilamni bir tashrifda tozalab berishdi, tez va puxta. Bitta dog\' baribir sal-pal qoldi.', author: 'Otabek Tursunov · Sergeli' },
+      { quote: 'Uyda bolamda allergiya bor — gilam uchun kimyodan xavotirlanardim. Vosita hidsiz ekan, natija a\'lo.', author: 'Kamola Yusupova · Yakkasaroy' },
+      { quote: 'Bayramlar oldidan mebel kimyoviy tozalashni ikkinchi marta buyurtma qilyapmiz — natija doim ajoyib.', author: 'Sergey Volkov · Shayxontohur' }
     ],
     area: {
       title: 'Xizmat ko\'rsatish hududi',

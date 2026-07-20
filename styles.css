@@ -301,7 +301,17 @@ p { margin: 0 0 14px; color: var(--muted); }
 .price-value { font-size: 1.9rem; font-weight: 800; margin: 8px 0; }
 .pricing-card .button { margin-top: 8px; }
 
+.star { flex: none; color: var(--divider); }
+.star.filled { color: var(--accent); }
+.testimonial-card .stars { display: flex; gap: 2px; margin-bottom: 12px; }
 .testimonial-card blockquote { margin: 0 0 14px; font-size: 1rem; color: var(--text); }
+
+.rating-summary { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.rating-value { font-size: 1.6rem; font-weight: 800; color: var(--accent); }
+.rating-label { font-size: 0.85rem; color: var(--muted); }
+.stars-overlay { position: relative; height: 16px; }
+.stars-bg, .stars-fg { display: flex; gap: 2px; }
+.stars-fg { position: absolute; top: 0; left: 0; overflow: hidden; white-space: nowrap; }
 .person { color: var(--accent); font-weight: 800; font-size: 0.9rem; }
 
 .about-grid {
