@@ -121,7 +121,8 @@ const translations = {
       channelPhone: 'Телефон'
     },
     mobileCta: { call: 'Позвонить', whatsapp: 'WhatsApp' },
-    footer: '© 2026 Soclean · Ташкент · +998 90 394 99 70'
+    footer: '© 2026 Soclean · Ташкент',
+    footerCreditText: 'Нужен свой сайт?'
   },
   uz: {
     nav: { services: 'Xizmatlar', pricing: 'Narxlar', guarantees: 'Kafolatlar', reviews: 'Sharhlar', contact: 'Bog\'lanish' },
@@ -245,7 +246,8 @@ const translations = {
       channelPhone: 'Telefon'
     },
     mobileCta: { call: 'Qo\'ng\'iroq qilish', whatsapp: 'WhatsApp' },
-    footer: '© 2026 Soclean · Toshkent · +998 90 394 99 70'
+    footer: '© 2026 Soclean · Toshkent',
+    footerCreditText: 'O\'zingizga ham sayt kerakmi?'
   }
 };
 
