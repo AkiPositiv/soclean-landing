@@ -7,9 +7,9 @@ const translations = {
       subtitle: 'Профессиональная уборка квартир, офисов и объектов после ремонта в Ташкенте — быстро, аккуратно и с гарантией результата.',
       ctaPrimary: 'Узнать стоимость',
       ctaSecondary: 'Заказать звонок',
-      stat1: '8+ лет опыта',
+      stat1: '4+ года опыта',
       stat1Label: 'клининговый сервис',
-      stat2: '15 000+ уборок',
+      stat2: '1 000+ уборок',
       stat2Label: 'выполнено',
       stat3: '98% повторных заказов',
       stat3Label: 'клиентов возвращаются',
@@ -28,8 +28,6 @@ const translations = {
     cards: [
       { title: 'Уборка квартир', text: 'Поддерживающая и генеральная уборка с вниманием к деталям.' },
       { title: 'Уборка офисов', text: 'Регулярный клининг для рабочих пространств и переговорных.' },
-      { title: 'После ремонта', text: 'Удаление пыли, строймусора и следов ремонта.' },
-      { title: 'Мытьё окон', text: 'Чистые окна, рамы и подоконники без разводов.' },
       { title: 'Химчистка', text: 'Мягкая мебель, ковры и текстиль на дому и в офисе.' },
       { title: 'Эко-уход', text: 'Безопасные средства для детей, животных и аллергиков.' }
     ],
@@ -46,11 +44,11 @@ const translations = {
     about: {
       kicker: 'О компании',
       title: 'Soclean — команда, которой доверяют интерьеры Ташкента',
-      text: 'Работаем в Ташкенте с 2016 года. Используем гипоаллергенную профессиональную химию и собственные стандарты контроля качества на каждом объекте.',
+      text: 'Работаем в Ташкенте с 2022 года. Используем гипоаллергенную профессиональную химию и собственные стандарты контроля качества на каждом объекте.',
       stats: [
-        { value: '8 лет', label: 'на рынке' },
-        { value: '15 000+', label: 'уборок выполнено' },
-        { value: '40+', label: 'клинеров в штате' }
+        { value: '4 года', label: 'на рынке' },
+        { value: '1 000+', label: 'уборок выполнено' },
+        { value: '10+', label: 'клинеров в штате' }
       ]
     },
     pricing: {
@@ -79,7 +77,10 @@ const translations = {
     galleryItems: [
       { before: 'Кухня — до уборки', after: 'Кухня — после уборки', label: 'Кухня' },
       { before: 'Гостиная — до генеральной', after: 'Гостиная — после генеральной', label: 'Гостиная' },
-      { before: 'Офис — до клининга', after: 'Офис — после клининга', label: 'Офис' }
+      { before: 'Офис — до клининга', after: 'Офис — после клининга', label: 'Офис' },
+      { before: 'Санузел — до уборки', after: 'Санузел — после уборки', label: 'Санузел' },
+      { before: 'Спальня — до уборки', after: 'Спальня — после уборки', label: 'Спальня' },
+      { before: 'Прихожая — до уборки', after: 'Прихожая — после уборки', label: 'Прихожая' }
     ],
     reviews: {
       title: 'Отзывы клиентов',
@@ -88,7 +89,10 @@ const translations = {
     testimonials: [
       { quote: 'Всё сделали идеально, даже после ремонта. Очень приятно, когда реально заботятся о деталях.', author: 'Анна К. · Чиланзар' },
       { quote: 'Регулярная уборка уже полгода — всегда вовремя и без лишних вопросов.', author: 'Дилноза Р. · Юнусабад' },
-      { quote: 'Спасибо за химчистку дивана — как новый. Рекомендую всем.', author: 'Марина Л. · Мирзо-Улугбек' }
+      { quote: 'Спасибо за химчистку дивана — как новый. Рекомендую всем.', author: 'Марина Л. · Мирзо-Улугбек' },
+      { quote: 'Быстро приехали и всё сделали аккуратно, даже углы за шкафами не забыли.', author: 'Отабек Т. · Сергели' },
+      { quote: 'Заказывали эко-уборку — дома аллергик, всё прошло без единой реакции. Спасибо!', author: 'Камола Ю. · Яккасарай' },
+      { quote: 'Уже третий раз заказываем поддерживающую уборку — команда всегда на связи и пунктуальна.', author: 'Сергей В. · Шайхантахур' }
     ],
     area: {
       title: 'Зона обслуживания',
@@ -105,7 +109,10 @@ const translations = {
       { q: 'Как быстро вы можете выехать?', a: 'Обычно в течение 24 часов, а в срочных случаях — в день обращения.' },
       { q: 'Используете ли вы безопасную химию?', a: 'Да, только гипоаллергенные и профессиональные средства.' },
       { q: 'Можно ли оплатить картой или через Payme/Click?', a: 'Да, принимаем наличные, банковские переводы и оплату через Payme и Click.' },
-      { q: 'Работаете ли в выходные и праздники?', a: 'Да, без выходных, с 8:00 до 22:00, включая праздники.' }
+      { q: 'Работаете ли в выходные и праздники?', a: 'Да, без выходных, с 8:00 до 22:00, включая праздники.' },
+      { q: 'Сколько человек приезжает на уборку?', a: 'Обычно 1–3 клинера — количество зависит от площади и типа уборки.' },
+      { q: 'Нужно ли предоставлять свою химию и инвентарь?', a: 'Нет, мы приезжаем со всем необходимым оборудованием и средствами.' },
+      { q: 'Есть ли скидка при регулярной уборке?', a: 'Да, при подписке на еженедельную или двухнедельную уборку действует специальная цена.' }
     ],
     contact: {
       title: 'Свяжитесь с нами',
@@ -114,7 +121,7 @@ const translations = {
       channelPhone: 'Телефон'
     },
     mobileCta: { call: 'Позвонить', whatsapp: 'WhatsApp' },
-    footer: '© 2026 Soclean · Ташкент · +998 90 123 45 67'
+    footer: '© 2026 Soclean · Ташкент · +998 90 394 99 70'
   },
   uz: {
     nav: { services: 'Xizmatlar', pricing: 'Narxlar', guarantees: 'Kafolatlar', reviews: 'Sharhlar', contact: 'Bog\'lanish' },
@@ -124,9 +131,9 @@ const translations = {
       subtitle: 'Toshkentda kvartira, ofis va ta\'mirlashdan keyingi ob\'yektlarni professional tozalash — tez, puxta va natija kafolatlanadi.',
       ctaPrimary: 'Narxni bilish',
       ctaSecondary: 'Qo\'ng\'iroq buyurtma',
-      stat1: '8+ yil tajriba',
+      stat1: '4+ yil tajriba',
       stat1Label: 'klining xizmati',
-      stat2: '15 000+ ta tozalash',
+      stat2: '1 000+ ta tozalash',
       stat2Label: 'bajarildi',
       stat3: '98% takror buyurtmalar',
       stat3Label: 'mijozlar qaytadi',
@@ -145,8 +152,6 @@ const translations = {
     cards: [
       { title: 'Kvartira tozalash', text: 'Doimiy va keng qamrovli tozalash, detallarni hisobga olgan holda.' },
       { title: 'Ofis tozalash', text: 'Ish maydonlari va suhbat xonalari uchun muntazam klining.' },
-      { title: 'Ta\'mirlashdan keyin', text: 'Chang, qurilish chiqindilari va ta\'mirlash izlarini olib tashlash.' },
-      { title: 'Derazalarni yuvish', text: 'Ko\'rinishsiz, shaffof derazalar va romlar.' },
       { title: 'Kimyoviy tozalash', text: 'Mebel, gilam va matolarni uyda va ofisda tozalash.' },
       { title: 'Ekologik xizmat', text: 'Bolalar, hayvonlar va allergiya bor kishilar uchun xavfsiz vositalar.' }
     ],
@@ -163,11 +168,11 @@ const translations = {
     about: {
       kicker: 'Kompaniya haqida',
       title: 'Soclean — Toshkent interyerlariga ishonilgan jamoa',
-      text: 'Toshkentda 2016-yildan beri ishlaymiz. Gipoallergen professional kimyoviy vositalar va har bir ob\'ektda sifat nazorati standartlaridan foydalanamiz.',
+      text: 'Toshkentda 2022-yildan beri ishlaymiz. Gipoallergen professional kimyoviy vositalar va har bir ob\'ektda sifat nazorati standartlaridan foydalanamiz.',
       stats: [
-        { value: '8 yil', label: 'bozorda' },
-        { value: '15 000+', label: 'tozalash bajarildi' },
-        { value: '40+', label: 'shtatdagi klinerlar' }
+        { value: '4 yil', label: 'bozorda' },
+        { value: '1 000+', label: 'tozalash bajarildi' },
+        { value: '10+', label: 'shtatdagi klinerlar' }
       ]
     },
     pricing: {
@@ -196,7 +201,10 @@ const translations = {
     galleryItems: [
       { before: 'Oshxona — tozalashdan oldin', after: 'Oshxona — tozalashdan keyin', label: 'Oshxona' },
       { before: 'Mehmonxona — keng qamrovlidan oldin', after: 'Mehmonxona — keng qamrovlidan keyin', label: 'Mehmonxona' },
-      { before: 'Ofis — klining oldidan', after: 'Ofis — kliningdan keyin', label: 'Ofis' }
+      { before: 'Ofis — klining oldidan', after: 'Ofis — kliningdan keyin', label: 'Ofis' },
+      { before: 'Hammom — tozalashdan oldin', after: 'Hammom — tozalashdan keyin', label: 'Hammom' },
+      { before: 'Yotoqxona — tozalashdan oldin', after: 'Yotoqxona — tozalashdan keyin', label: 'Yotoqxona' },
+      { before: 'Kirish qismi — tozalashdan oldin', after: 'Kirish qismi — tozalashdan keyin', label: 'Kirish qismi' }
     ],
     reviews: {
       title: 'Mijozlar sharhlari',
@@ -205,7 +213,10 @@ const translations = {
     testimonials: [
       { quote: 'Hammasi mukammal bajarildi, hatto ta\'mirlashdan keyin ham. Detallarga haqiqatan ham e\'tibor berish yoqdi.', author: 'Anna K. · Chilonzor' },
       { quote: 'Doimiy tozalashni olti oy davomida ishlatamiz — har doim o\'z vaqtida va hech qanday qo\'shimcha savollarsiz.', author: 'Dilnoza R. · Yunusobod' },
-      { quote: 'Divanni kimyoviy tozalashga rahmat — xuddi yangi. Hamma uchun tavsiya qilaman.', author: 'Marina L. · Mirzo Ulug\'bek' }
+      { quote: 'Divanni kimyoviy tozalashga rahmat — xuddi yangi. Hamma uchun tavsiya qilaman.', author: 'Marina L. · Mirzo Ulug\'bek' },
+      { quote: 'Tez kelishdi va hammasini puxta bajarishdi, hatto javon orqasidagi burchaklarni ham unutishmadi.', author: 'Otabek T. · Sergeli' },
+      { quote: 'Ekologik tozalashni buyurtma qildik — uyda allergiyasi bor odam bor, hech qanday reaksiya bo\'lmadi. Rahmat!', author: 'Kamola Y. · Yakkasaroy' },
+      { quote: 'Endi uchinchi marta doimiy tozalashni buyurtma qilyapmiz — jamoa doim aloqada va vaqtida keladi.', author: 'Sergey V. · Shayxontohur' }
     ],
     area: {
       title: 'Xizmat ko\'rsatish hududi',
@@ -222,7 +233,10 @@ const translations = {
       { q: 'Qanchalik tez kelishingiz mumkin?', a: 'Odatda 24 soat ichida, tezkor holatlarda esa shu kunning o\'zida.' },
       { q: 'Xavfsiz kimyoviy vositalar ishlatasizmi?', a: 'Ha, faqat allergiya va bolalar uchun xavfsiz professional vositalar.' },
       { q: 'Karta yoki Payme/Click orqali to\'lash mumkinmi?', a: 'Ha, naqd pul, bank o\'tkazmalari va Payme, Click orqali to\'lovlarni qabul qilamiz.' },
-      { q: 'Dam olish va bayram kunlari ishlaysizmi?', a: 'Ha, dam olish kunlarisiz, 8:00 dan 22:00 gacha, bayramlarda ham ishlaymiz.' }
+      { q: 'Dam olish va bayram kunlari ishlaysizmi?', a: 'Ha, dam olish kunlarisiz, 8:00 dan 22:00 gacha, bayramlarda ham ishlaymiz.' },
+      { q: 'Tozalashga nechta odam keladi?', a: 'Odatda 1–3 kliner — soni maydon va tozalash turiga bog\'liq.' },
+      { q: 'O\'z kimyoviy vosita va jihozlarimni berishim kerakmi?', a: 'Yo\'q, biz kerakli barcha jihoz va vositalar bilan kelamiz.' },
+      { q: 'Doimiy tozalashda chegirma bormi?', a: 'Ha, haftalik yoki ikki haftalik obuna uchun maxsus narx amal qiladi.' }
     ],
     contact: {
       title: 'Biz bilan bog\'laning',
@@ -231,7 +245,7 @@ const translations = {
       channelPhone: 'Telefon'
     },
     mobileCta: { call: 'Qo\'ng\'iroq qilish', whatsapp: 'WhatsApp' },
-    footer: '© 2026 Soclean · Toshkent · +998 90 123 45 67'
+    footer: '© 2026 Soclean · Toshkent · +998 90 394 99 70'
   }
 };
 
