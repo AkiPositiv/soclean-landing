@@ -1,19 +1,20 @@
 const translations = {
   ru: {
-    nav: { services: 'Услуги', pricing: 'Цены', guarantees: 'Гарантии', reviews: 'Отзывы', contact: 'Контакты' },
+    nav: { services: 'Услуги', pricing: 'Цены', guarantees: 'Преимущества', reviews: 'Отзывы', contact: 'Контакты' },
     hero: {
-      kicker: 'Премиум клининг',
-      title: 'Безупречная чистота для вашего дома и бизнеса',
-      subtitle: 'Профессиональная уборка квартир, офисов и объектов после ремонта в Ташкенте — быстро, аккуратно и с гарантией результата.',
-      ctaPrimary: 'Узнать стоимость',
-      ctaSecondary: 'Заказать звонок',
+      kicker: 'Химчистка на дому',
+      title: 'Профессиональная химчистка мебели и ковров в Ташкенте',
+      subtitle: 'Профессиональная химчистка диванов, ковров, матрасов и мягкой мебели с выездом на дом. Удаляем пятна, неприятные запахи, пыль и глубокие загрязнения с помощью профессионального оборудования и безопасных чистящих средств.',
+      ctaPrimary: 'Заказать химчистку',
+      ctaCall: 'Позвонить',
+      ctaTelegram: 'Написать в Telegram',
       stat1: '4+ года опыта',
-      stat1Label: 'клининговый сервис',
-      stat2: '1 000+ уборок',
+      stat1Label: 'химчистка мебели и ковров',
+      stat2: '1 000+ чисток',
       stat2Label: 'выполнено',
       stat3: '98% повторных заказов',
       stat3Label: 'клиентов возвращаются',
-      visualText: 'Чистота, которая ощущается сразу: порядок в каждой детали.'
+      visualText: 'Свежая и чистая мебель без лишних хлопот — прямо у вас дома.'
     },
     trust: [
       { title: 'Заявки 24/7', text: 'Принимаем заказы в любое время суток' },
@@ -22,65 +23,80 @@ const translations = {
       { title: 'Гарантия 100%', text: 'Переделаем бесплатно, если что-то не так' }
     ],
     services: {
-      title: 'Что мы делаем',
-      subtitle: 'Полный спектр услуг для дома, офиса и коммерческих помещений.'
+      title: 'Наши услуги',
+      subtitle: 'Профессиональная химчистка любой мягкой мебели и ковровых покрытий.'
     },
     cards: [
-      { title: 'Уборка квартир', text: 'Поддерживающая и генеральная уборка с вниманием к деталям.' },
-      { title: 'Уборка офисов', text: 'Регулярный клининг для рабочих пространств и переговорных.' },
-      { title: 'Химчистка', text: 'Мягкая мебель, ковры и текстиль на дому и в офисе.' },
-      { title: 'Эко-уход', text: 'Безопасные средства для детей, животных и аллергиков.' }
+      { title: 'Химчистка диванов', text: 'Глубокая чистка тканевой и кожаной обивки диванов любой сложности.' },
+      { title: 'Химчистка ковров', text: 'Выведение пятен, пыли и запахов с ковров и паласов на дому.' },
+      { title: 'Химчистка матрасов', text: 'Удаление пылевых клещей, пятен и неприятных запахов с матраса.' },
+      { title: 'Химчистка кресел', text: 'Бережная чистка кресел с сохранением формы и цвета обивки.' },
+      { title: 'Химчистка стульев', text: 'Приведём в порядок мягкие стулья дома, в офисе или кафе.' },
+      { title: 'Химчистка мягкой мебели', text: 'Комплексная чистка любой мягкой мебели — от пуфов до угловых диванов.' },
+      { title: 'Удаление пятен', text: 'Справляемся даже со старыми и въевшимися пятнами разного происхождения.' },
+      { title: 'Удаление запахов', text: 'Нейтрализуем запахи от животных, сырости и табака без химического аромата.' }
     ],
     process: {
       title: 'Как мы работаем',
-      subtitle: 'Простой и понятный путь к чистому пространству.'
+      subtitle: 'Простой и понятный путь к чистой мебели.'
     },
     steps: [
-      { title: 'Заявка', text: 'Оставляете запрос на сайте или по телефону.' },
-      { title: 'Расчёт', text: 'Подбираем объём работ и подскажем стоимость.' },
-      { title: 'Уборка', text: 'Команда выезжает в удобное для вас время.' },
-      { title: 'Приёмка', text: 'Проверяем результат и передаём объект в идеальном состоянии.' }
+      { title: 'Заявка', text: 'Оставьте заявку по телефону, в Telegram или Instagram.' },
+      { title: 'Согласование', text: 'Согласуем удобное для вас время визита.' },
+      { title: 'Выезд', text: 'Приедем по указанному адресу со своим оборудованием.' },
+      { title: 'Химчистка', text: 'Выполним профессиональную химчистку мебели или ковра.' },
+      { title: 'Результат', text: 'Вы принимаете чистую и свежую мебель.' }
     ],
     about: {
       kicker: 'О компании',
-      title: 'Soclean — команда, которой доверяют интерьеры Ташкента',
-      text: 'Работаем в Ташкенте с 2022 года. Используем гипоаллергенную профессиональную химию и собственные стандарты контроля качества на каждом объекте.',
+      title: 'Soclean — специалисты по химчистке мебели и ковров в Ташкенте',
+      text: 'Soclean — компания, специализирующаяся на профессиональной химчистке мягкой мебели и ковров. Мы используем современное оборудование и качественные чистящие средства, которые эффективно удаляют загрязнения, пыль, аллергены и неприятные запахи, сохраняя внешний вид и структуру ткани. Наша цель — обеспечить высокое качество обслуживания, аккуратную работу и отличный результат, чтобы каждый клиент остался доволен.',
       stats: [
         { value: '4 года', label: 'на рынке' },
-        { value: '1 000+', label: 'уборок выполнено' },
-        { value: '10+', label: 'клинеров в штате' }
+        { value: '1 000+', label: 'выполненных чисток' },
+        { value: '10+', label: 'специалистов в штате' }
       ]
     },
     pricing: {
       title: 'Тарифы',
-      subtitle: 'Выберите формат уборки под ваш объект и бюджет.'
+      subtitle: 'Полный прайс-лист по всем видам мебели. Нажмите на изображение, чтобы увеличить.'
     },
     plans: [
-      { tag: 'Стандарт', price: 'от 250 000 сум', title: 'Поддерживающая уборка', text: 'Подходит для регулярного ухода за квартирой или офисом.' },
-      { tag: 'Комфорт', price: 'от 450 000 сум', title: 'Генеральная уборка', text: 'Глубокая чистка всех зон, включая кухни и санузлы.' },
-      { tag: 'Премиум', price: 'от 750 000 сум', title: 'После ремонта', text: 'Полный цикл: пыль, мусор, финальная полировка поверхностей.' }
+      { label: 'Прайс — диваны' },
+      { label: 'Прайс — кресла' },
+      { label: 'Прайс — стулья' },
+      { label: 'Прайс — матрасы' },
+      { label: 'Прайс — ковровые покрытия' },
+      { label: 'Прайс — ковролин' },
+      { label: 'Прайс — подушки' },
+      { label: 'Прайс — пуфы' }
     ],
     guarantees: {
-      title: 'Гарантии и доверие',
-      subtitle: 'Работаем открыто: то, что обещаем — подтверждаем на деле.'
+      title: 'Наши преимущества',
+      subtitle: 'Почему клиенты выбирают химчистку Soclean.'
     },
     guaranteeItems: [
-      { title: 'Гарантия результата', text: 'Если что-то не понравится — переделаем бесплатно в течение 24 часов.' },
-      { title: 'Проверенный персонал', text: 'Клинеры работают в штате, а не по подряду, все проходят собеседование.' },
-      { title: 'Безопасная химия', text: 'Сертифицированные гипоаллергенные средства для дома, где есть дети и животные.' },
-      { title: 'Страхование объекта', text: 'Ответственность перед клиентом застрахована на каждый выезд.' }
+      { title: 'Выезд на дом', text: 'Приезжаем к вам домой или в офис со всем необходимым оборудованием.' },
+      { title: 'Профессиональное оборудование', text: 'Используем профессиональные моющие пылесосы и экстракторы.' },
+      { title: 'Безопасные чистящие средства', text: 'Средства безопасны для детей и животных при правильном применении.' },
+      { title: 'Бережная очистка мебели', text: 'Сохраняем структуру ткани и цвет обивки при чистке.' },
+      { title: 'Удаление сложных загрязнений', text: 'Справляемся с застарелыми пятнами и сложными загрязнениями.' },
+      { title: 'Индивидуальный подход', text: 'Подбираем метод чистки под тип ткани и степень загрязнения.' },
+      { title: 'Качественный результат', text: 'Работаем на результат, которым вы останетесь довольны.' },
+      { title: 'Удобная запись', text: 'Записаться можно по телефону, в Telegram или Instagram.' }
     ],
     gallery: {
-      title: 'Наши работы',
-      subtitle: 'Реальные объекты до и после уборки — фото скоро добавим.'
+      title: 'До / После',
+      subtitle: 'Реальные результаты нашей химчистки мебели и ковров. Нажмите на фото, чтобы увеличить.'
     },
     galleryItems: [
-      { before: 'Кухня — до уборки', after: 'Кухня — после уборки', label: 'Кухня' },
-      { before: 'Гостиная — до генеральной', after: 'Гостиная — после генеральной', label: 'Гостиная' },
-      { before: 'Офис — до клининга', after: 'Офис — после клининга', label: 'Офис' },
-      { before: 'Санузел — до уборки', after: 'Санузел — после уборки', label: 'Санузел' },
-      { before: 'Спальня — до уборки', after: 'Спальня — после уборки', label: 'Спальня' },
-      { before: 'Прихожая — до уборки', after: 'Прихожая — после уборки', label: 'Прихожая' }
+      { label: 'Диван' },
+      { label: 'Диван' },
+      { label: 'Стул' },
+      { label: 'Стул' },
+      { label: 'Матрас' },
+      { label: 'Матрас' },
+      { label: 'Детское кресло' }
     ],
     reviews: {
       title: 'Отзывы клиентов',
@@ -103,17 +119,17 @@ const translations = {
     areaList: ['Чиланзар', 'Юнусабад', 'Мирзо-Улугбек', 'Шайхантахур', 'Яккасарай', 'Сергели', 'Яшнабад', 'Бектемир', 'Учтепа', 'Алмазар', 'Мирабад', 'Янгихаят'],
     faq: {
       title: 'Частые вопросы',
-      subtitle: 'Если коротко — мы берём на себя всё, что связано с чистотой.'
+      subtitle: 'Если коротко — мы берём на себя всё, что связано с чистотой мебели.'
     },
     faqs: [
-      { q: 'Нужно ли быть дома во время уборки?', a: 'Нет, можно оставить ключи или организовать доступ через консьержа.' },
+      { q: 'Сколько сохнет мебель после химчистки?', a: 'В среднем от 4 до 8 часов.' },
+      { q: 'Безопасны ли чистящие средства?', a: 'Да, используются профессиональные средства, безопасные при правильном применении.' },
+      { q: 'Удаляются ли все пятна?', a: 'Большинство пятен удаляется. В случае очень старых или сложных загрязнений результат зависит от состояния ткани.' },
+      { q: 'Нужно ли быть дома во время химчистки?', a: 'Нет, можно оставить ключи или организовать доступ через консьержа.' },
       { q: 'Как быстро вы можете выехать?', a: 'Обычно в течение 24 часов, а в срочных случаях — в день обращения.' },
-      { q: 'Используете ли вы безопасную химию?', a: 'Да, только гипоаллергенные и профессиональные средства.' },
       { q: 'Можно ли оплатить картой или через Payme/Click?', a: 'Да, принимаем наличные, банковские переводы и оплату через Payme и Click.' },
       { q: 'Работаете ли в выходные и праздники?', a: 'Да, без выходных, с 8:00 до 22:00, включая праздники.' },
-      { q: 'Сколько человек приезжает на уборку?', a: 'Обычно 1–3 клинера — количество зависит от площади и типа уборки.' },
-      { q: 'Нужно ли предоставлять свою химию и инвентарь?', a: 'Нет, мы приезжаем со всем необходимым оборудованием и средствами.' },
-      { q: 'Есть ли скидка при регулярной уборке?', a: 'Да, при подписке на еженедельную или двухнедельную уборку действует специальная цена.' }
+      { q: 'Нужно ли предоставлять своё оборудование или средства?', a: 'Нет, мы приезжаем со всем необходимым профессиональным оборудованием и средствами.' }
     ],
     contact: {
       title: 'Свяжитесь с нами',
@@ -121,25 +137,26 @@ const translations = {
       hours: 'Ежедневно, 8:00–22:00 · Работаем по всему Ташкенту',
       channelPhone: 'Телефон'
     },
-    mobileCta: { call: 'Позвонить', whatsapp: 'WhatsApp' },
+    mobileCta: { call: 'Позвонить', telegram: 'Telegram' },
     footer: '© 2026 Soclean · Ташкент',
     footerCreditText: 'Нужен свой сайт?'
   },
   uz: {
-    nav: { services: 'Xizmatlar', pricing: 'Narxlar', guarantees: 'Kafolatlar', reviews: 'Sharhlar', contact: 'Bog\'lanish' },
+    nav: { services: 'Xizmatlar', pricing: 'Narxlar', guarantees: 'Afzalliklar', reviews: 'Sharhlar', contact: 'Bog\'lanish' },
     hero: {
-      kicker: 'Premium klining',
-      title: 'Uy va biznesingiz uchun mukammal tozalik',
-      subtitle: 'Toshkentda kvartira, ofis va ta\'mirlashdan keyingi ob\'yektlarni professional tozalash — tez, puxta va natija kafolatlanadi.',
-      ctaPrimary: 'Narxni bilish',
-      ctaSecondary: 'Qo\'ng\'iroq buyurtma',
+      kicker: 'Uyga borib kimyoviy tozalash',
+      title: 'Toshkentda mebel va gilamlarni professional kimyoviy tozalash',
+      subtitle: 'Divan, gilam, matras va yumshoq mebellarni uyingizga borib professional kimyoviy tozalaymiz. Dog\', yoqimsiz hid, chang va chuqur ifloslanishlarni professional jihoz va xavfsiz vositalar yordamida yo\'qotamiz.',
+      ctaPrimary: 'Kimyoviy tozalashga buyurtma',
+      ctaCall: 'Qo\'ng\'iroq qilish',
+      ctaTelegram: 'Telegram orqali yozish',
       stat1: '4+ yil tajriba',
-      stat1Label: 'klining xizmati',
-      stat2: '1 000+ ta tozalash',
+      stat1Label: 'mebel va gilam kimyoviy tozalash',
+      stat2: '1 000+ tozalash',
       stat2Label: 'bajarildi',
       stat3: '98% takror buyurtmalar',
       stat3Label: 'mijozlar qaytadi',
-      visualText: 'Darhol seziladigan tozalik: har bir detalda tartib.'
+      visualText: 'Ortiqcha tashvishsiz toza va yangi mebel — to\'g\'ridan-to\'g\'ri uyingizda.'
     },
     trust: [
       { title: '24/7 ariza qabul', text: 'Kunning istalgan vaqtida buyurtma qabul qilamiz' },
@@ -148,65 +165,80 @@ const translations = {
       { title: '100% kafolat', text: 'Agar biror narsa yoqmasa — bepul qayta bajaramiz' }
     ],
     services: {
-      title: 'Biz nima qilamiz',
-      subtitle: 'Uy, ofis va tijorat binolari uchun to\'liq xizmatlar to\'plami.'
+      title: 'Bizning xizmatlarimiz',
+      subtitle: 'Har qanday yumshoq mebel va gilam qoplamalarini professional kimyoviy tozalash.'
     },
     cards: [
-      { title: 'Kvartira tozalash', text: 'Doimiy va keng qamrovli tozalash, detallarni hisobga olgan holda.' },
-      { title: 'Ofis tozalash', text: 'Ish maydonlari va suhbat xonalari uchun muntazam klining.' },
-      { title: 'Kimyoviy tozalash', text: 'Mebel, gilam va matolarni uyda va ofisda tozalash.' },
-      { title: 'Ekologik xizmat', text: 'Bolalar, hayvonlar va allergiya bor kishilar uchun xavfsiz vositalar.' }
+      { title: 'Divanlarni kimyoviy tozalash', text: 'Har qanday murakkablikdagi divan mato va teri qoplamasini chuqur tozalash.' },
+      { title: 'Gilamlarni kimyoviy tozalash', text: 'Uyingizda gilam va palaslardan dog\', chang va hidlarni yo\'qotamiz.' },
+      { title: 'Matraslarni kimyoviy tozalash', text: 'Matrasdagi chang kanalari, dog\' va yoqimsiz hidlarni yo\'qotish.' },
+      { title: 'Kreslolarni kimyoviy tozalash', text: 'Kreslolarni qoplama shakli va rangini saqlagan holda ehtiyotkorlik bilan tozalash.' },
+      { title: 'Stullarni kimyoviy tozalash', text: 'Uy, ofis yoki kafedagi yumshoq stullarni tartibga keltiramiz.' },
+      { title: 'Yumshoq mebelni kimyoviy tozalash', text: 'Har qanday yumshoq mebelni kompleks tozalash — puflardan burchakli divangacha.' },
+      { title: 'Dog\'larni yo\'qotish', text: 'Eski va chuqur singib ketgan turli xil dog\'larni ham yo\'qotamiz.' },
+      { title: 'Yoqimsiz hidlarni yo\'qotish', text: 'Hayvon, namlik va tamaki hidlarini kimyoviy hid qoldirmasdan yo\'qotamiz.' }
     ],
     process: {
       title: 'Biz qanday ishlaymiz',
-      subtitle: 'Toza makonga yetib borish uchun oddiy va tushunarli yo\'l.'
+      subtitle: 'Toza mebelga yetib borish uchun oddiy va tushunarli yo\'l.'
     },
     steps: [
-      { title: 'Ariza', text: 'Sayt yoki telefon orqali so\'rov qoldirasiz.' },
-      { title: 'Hisob-kitob', text: 'Ish hajmini aniqlab, narxni aytamiz.' },
-      { title: 'Tozalash', text: 'Jamoa siz uchun qulay vaqtda keladi.' },
-      { title: 'Qabul qilish', text: 'Natijani tekshiramiz va ob\'yektni mukammal holatda topshiramiz.' }
+      { title: 'Ariza', text: 'Telefon, Telegram yoki Instagram orqali ariza qoldiring.' },
+      { title: 'Kelishuv', text: 'Siz uchun qulay tashrif vaqtini kelishamiz.' },
+      { title: 'Tashrif', text: 'O\'z jihozimiz bilan ko\'rsatilgan manzilga kelamiz.' },
+      { title: 'Kimyoviy tozalash', text: 'Mebel yoki gilamni professional kimyoviy tozalaymiz.' },
+      { title: 'Natija', text: 'Siz toza va yangi mebelni qabul qilasiz.' }
     ],
     about: {
       kicker: 'Kompaniya haqida',
-      title: 'Soclean — Toshkent interyerlariga ishonilgan jamoa',
-      text: 'Toshkentda 2022-yildan beri ishlaymiz. Gipoallergen professional kimyoviy vositalar va har bir ob\'ektda sifat nazorati standartlaridan foydalanamiz.',
+      title: 'Soclean — Toshkentda mebel va gilam kimyoviy tozalash bo\'yicha mutaxassislar',
+      text: 'Soclean — yumshoq mebel va gilamlarni professional kimyoviy tozalashga ixtisoslashgan kompaniya. Biz ifloslanish, chang, allergenlar va yoqimsiz hidlarni samarali yo\'qotadigan, matoning ko\'rinishi va tuzilishini saqlaydigan zamonaviy jihoz va sifatli tozalash vositalaridan foydalanamiz. Bizning maqsadimiz — har bir mijoz mamnun qolishi uchun yuqori sifatli xizmat, ehtiyotkor ish va ajoyib natijani ta\'minlash.',
       stats: [
         { value: '4 yil', label: 'bozorda' },
-        { value: '1 000+', label: 'tozalash bajarildi' },
-        { value: '10+', label: 'shtatdagi klinerlar' }
+        { value: '1 000+', label: 'bajarilgan tozalash' },
+        { value: '10+', label: 'shtatdagi mutaxassislar' }
       ]
     },
     pricing: {
       title: 'Tariflar',
-      subtitle: 'Ob\'yekt va byudjetingizga mos tozalash formatini tanlang.'
+      subtitle: 'Barcha mebel turlari bo\'yicha to\'liq prays-list. Kattalashtirish uchun rasmga bosing.'
     },
     plans: [
-      { tag: 'Standart', price: '250 000 so\'mdan', title: 'Doimiy tozalash', text: 'Kvartira yoki ofisni muntazam parvarish qilish uchun.' },
-      { tag: 'Komfort', price: '450 000 so\'mdan', title: 'Keng qamrovli tozalash', text: 'Oshxona va hammom kabi barcha zonalarni chuqur tozalash.' },
-      { tag: 'Premium', price: '750 000 so\'mdan', title: 'Ta\'mirlashdan keyin', text: 'To\'liq sikl: chang, chiqindilar va sirtlarni yakuniy parlatish.' }
+      { label: 'Prays — divanlar' },
+      { label: 'Prays — kresolar' },
+      { label: 'Prays — stullar' },
+      { label: 'Prays — matraslar' },
+      { label: 'Prays — gilam qoplamalari' },
+      { label: 'Prays — kovrolin' },
+      { label: 'Prays — yostiqlar' },
+      { label: 'Prays — puflar' }
     ],
     guarantees: {
-      title: 'Kafolat va ishonch',
-      subtitle: 'Ochiq ishlaymiz: va\'da qilganimizni amalda tasdiqlaymiz.'
+      title: 'Bizning afzalliklarimiz',
+      subtitle: 'Nima uchun mijozlar Soclean kimyoviy tozalashni tanlaydi.'
     },
     guaranteeItems: [
-      { title: 'Natija kafolati', text: 'Agar biror narsa yoqmasa — 24 soat ichida bepul qayta bajaramiz.' },
-      { title: 'Tekshirilgan xodimlar', text: 'Klinerlar shtatda ishlaydi, hammasi suhbat orqali tanlanadi.' },
-      { title: 'Xavfsiz kimyo', text: 'Bolalar va uy hayvonlari bo\'lgan uylar uchun sertifikatlangan gipoallergen vositalar.' },
-      { title: 'Ob\'ekt sug\'urtasi', text: 'Har bir chiqish uchun mijoz oldidagi javobgarlik sug\'urtalangan.' }
+      { title: 'Uyga borib xizmat', text: 'Uyingizga yoki ofisingizga kerakli barcha jihoz bilan boramiz.' },
+      { title: 'Professional jihoz', text: 'Professional yuvish chang yutgichlari va ekstraktorlardan foydalanamiz.' },
+      { title: 'Xavfsiz tozalash vositalari', text: 'Vositalar to\'g\'ri qo\'llanilganda bolalar va uy hayvonlari uchun xavfsiz.' },
+      { title: 'Mebelni ehtiyotkorlik bilan tozalash', text: 'Tozalash chog\'ida mato tuzilishi va qoplama rangini saqlaymiz.' },
+      { title: 'Murakkab ifloslanishlarni yo\'qotish', text: 'Eski dog\'lar va murakkab ifloslanishlar bilan kurashamiz.' },
+      { title: 'Individual yondashuv', text: 'Tozalash usulini mato turi va ifloslanish darajasiga qarab tanlaymiz.' },
+      { title: 'Sifatli natija', text: 'Siz mamnun qoladigan natija uchun ishlaymiz.' },
+      { title: 'Qulay yozilish', text: 'Telefon, Telegram yoki Instagram orqali yozilishingiz mumkin.' }
     ],
     gallery: {
-      title: 'Bizning ishlarimiz',
-      subtitle: 'Tozalashdan oldin va keyingi real ob\'yektlar — fotolarni tez orada qo\'shamiz.'
+      title: 'Oldin / Keyin',
+      subtitle: 'Mebel va gilamlarni kimyoviy tozalashning real natijalari. Kattalashtirish uchun rasmga bosing.'
     },
     galleryItems: [
-      { before: 'Oshxona — tozalashdan oldin', after: 'Oshxona — tozalashdan keyin', label: 'Oshxona' },
-      { before: 'Mehmonxona — keng qamrovlidan oldin', after: 'Mehmonxona — keng qamrovlidan keyin', label: 'Mehmonxona' },
-      { before: 'Ofis — klining oldidan', after: 'Ofis — kliningdan keyin', label: 'Ofis' },
-      { before: 'Hammom — tozalashdan oldin', after: 'Hammom — tozalashdan keyin', label: 'Hammom' },
-      { before: 'Yotoqxona — tozalashdan oldin', after: 'Yotoqxona — tozalashdan keyin', label: 'Yotoqxona' },
-      { before: 'Kirish qismi — tozalashdan oldin', after: 'Kirish qismi — tozalashdan keyin', label: 'Kirish qismi' }
+      { label: 'Divan' },
+      { label: 'Divan' },
+      { label: 'Stul' },
+      { label: 'Stul' },
+      { label: 'Matras' },
+      { label: 'Matras' },
+      { label: 'Bolalar kreslosi' }
     ],
     reviews: {
       title: 'Mijozlar sharhlari',
@@ -229,17 +261,17 @@ const translations = {
     areaList: ['Chilonzor', 'Yunusobod', 'Mirzo Ulug\'bek', 'Shayxontohur', 'Yakkasaroy', 'Sergeli', 'Yashnobod', 'Bektemir', 'Uchtepa', 'Olmazor', 'Mirobod', 'Yangihayot'],
     faq: {
       title: 'Tez-tez so\'raladigan savollar',
-      subtitle: 'Qisqacha aytganda, biz tozalik bilan bog\'liq hamma narsani o\'z zimmasiga olamiz.'
+      subtitle: 'Qisqacha aytganda, biz mebel tozaligi bilan bog\'liq hamma narsani o\'z zimmasiga olamiz.'
     },
     faqs: [
+      { q: 'Mebel kimyoviy tozalashdan keyin qancha vaqtda quriydi?', a: 'O\'rtacha 4 dan 8 soatgacha.' },
+      { q: 'Tozalash vositalari xavfsizmi?', a: 'Ha, to\'g\'ri qo\'llanilganda xavfsiz professional vositalar ishlatiladi.' },
+      { q: 'Barcha dog\'lar ketadimi?', a: 'Dog\'larning ko\'pchiligi ketadi. Juda eski yoki murakkab ifloslanishlarda natija matoning holatiga bog\'liq.' },
       { q: 'Tozalash vaqtida uyda bo\'lishim kerakmi?', a: 'Yo\'q, kalitlarni qoldirishingiz yoki kon\'yerja orqali kirishni tashkil qilishingiz mumkin.' },
       { q: 'Qanchalik tez kelishingiz mumkin?', a: 'Odatda 24 soat ichida, tezkor holatlarda esa shu kunning o\'zida.' },
-      { q: 'Xavfsiz kimyoviy vositalar ishlatasizmi?', a: 'Ha, faqat allergiya va bolalar uchun xavfsiz professional vositalar.' },
       { q: 'Karta yoki Payme/Click orqali to\'lash mumkinmi?', a: 'Ha, naqd pul, bank o\'tkazmalari va Payme, Click orqali to\'lovlarni qabul qilamiz.' },
       { q: 'Dam olish va bayram kunlari ishlaysizmi?', a: 'Ha, dam olish kunlarisiz, 8:00 dan 22:00 gacha, bayramlarda ham ishlaymiz.' },
-      { q: 'Tozalashga nechta odam keladi?', a: 'Odatda 1–3 kliner — soni maydon va tozalash turiga bog\'liq.' },
-      { q: 'O\'z kimyoviy vosita va jihozlarimni berishim kerakmi?', a: 'Yo\'q, biz kerakli barcha jihoz va vositalar bilan kelamiz.' },
-      { q: 'Doimiy tozalashda chegirma bormi?', a: 'Ha, haftalik yoki ikki haftalik obuna uchun maxsus narx amal qiladi.' }
+      { q: 'O\'z jihoz yoki vositalarimni berishim kerakmi?', a: 'Yo\'q, biz kerakli barcha professional jihoz va vositalar bilan kelamiz.' }
     ],
     contact: {
       title: 'Biz bilan bog\'laning',
@@ -247,7 +279,7 @@ const translations = {
       hours: 'Har kuni, 8:00–22:00 · Butun Toshkent bo\'ylab ishlaymiz',
       channelPhone: 'Telefon'
     },
-    mobileCta: { call: 'Qo\'ng\'iroq qilish', whatsapp: 'WhatsApp' },
+    mobileCta: { call: 'Qo\'ng\'iroq qilish', telegram: 'Telegram' },
     footer: '© 2026 Soclean · Toshkent',
     footerCreditText: 'O\'zingizga ham sayt kerakmi?'
   }
@@ -259,7 +291,7 @@ function setLanguage(lang) {
   currentLang = lang;
   localStorage.setItem('site-lang', lang);
   document.documentElement.lang = lang === 'uz' ? 'uz' : 'ru';
-  document.title = lang === 'uz' ? 'Soclean — Toshkentda zamonaviy klining' : 'Soclean — современный клининг в Ташкенте';
+  document.title = lang === 'uz' ? 'Soclean — mebel va gilamlarni kimyoviy tozalash' : 'Soclean — химчистка мебели и ковров в Ташкенте';
 
   const data = translations[lang];
   document.querySelectorAll('[data-i18n]').forEach((el) => {
@@ -272,6 +304,12 @@ function setLanguage(lang) {
     const key = el.getAttribute('data-i18n-placeholder');
     const value = key.split('.').reduce((acc, part) => acc && acc[part], data);
     if (typeof value === 'string') el.setAttribute('placeholder', value);
+  });
+
+  document.querySelectorAll('[data-i18n-alt]').forEach((el) => {
+    const key = el.getAttribute('data-i18n-alt');
+    const value = key.split('.').reduce((acc, part) => acc && acc[part], data);
+    if (typeof value === 'string') el.setAttribute('alt', value);
   });
 
   document.querySelectorAll('.lang-toggle').forEach((btn) => {
@@ -370,6 +408,34 @@ function initReveal() {
   });
 }
 
+function initLightbox() {
+  const lightbox = document.querySelector('#lightbox');
+  const img = lightbox?.querySelector('.lightbox-img');
+  const closeBtn = lightbox?.querySelector('.lightbox-close');
+  if (!lightbox || !img) return;
+
+  const open = (src, alt) => {
+    img.src = src;
+    img.alt = alt || '';
+    lightbox.classList.add('open');
+  };
+  const close = () => {
+    lightbox.classList.remove('open');
+    img.src = '';
+  };
+
+  document.querySelectorAll('[data-full]').forEach((el) => {
+    el.addEventListener('click', () => open(el.getAttribute('data-full'), el.getAttribute('alt')));
+  });
+  closeBtn?.addEventListener('click', close);
+  lightbox.addEventListener('click', (event) => {
+    if (event.target === lightbox) close();
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') close();
+  });
+}
+
 document.querySelectorAll('.lang-toggle').forEach((btn) => {
   btn.addEventListener('click', () => setLanguage(btn.getAttribute('data-lang')));
 });
@@ -379,4 +445,5 @@ initMenu();
 initReveal();
 initHeaderScroll();
 initCounters();
+initLightbox();
 setLanguage(currentLang);
